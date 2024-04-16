@@ -5,13 +5,13 @@
 [worldserver]
 
 ########################################
-# My module configuration
+# BG Queue Checker Configuration
 ########################################
 #
-#    MyModule.Enable
-#        Description: Enable my module and print "Hello World" message at server start
+#    BGQueueChecker.Enable
+#        Description: Enable/disable queue checking to ensure same faction queueing.
 #        Default:     0 - Disabled
 #                     1 - Enabled
 #
 
-MyModule.Enable = 1
+BGQueueChecker.Enable = 0
